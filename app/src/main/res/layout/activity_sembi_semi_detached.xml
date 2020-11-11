@@ -1,9 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Jagminder Sembi N01300801 section A -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SembiActivitySemiDetached">
+    android:background="#FFEB3B"
+    tools:context="com.example.jagminder.sembi.N01300801.SembiActivitySemiDetached">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/JagminderApt"
+                android:layout_width="255dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#E8ACAC"
+                android:text="@string/Sem"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/sd1"
+                app:layout_constraintHeight_percent=".12"
+                app:layout_constraintWidth_percent=".20"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="7dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/JagminderAddress9"
+                android:layout_width="183dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:text="@string/Address9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/c1"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="199dp"
+                tools:layout_editor_absoluteY="323dp" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:text="@string/Visit1"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="419dp" />
+
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/sd2"
+                app:layout_constraintHeight_percent=".12"
+                app:layout_constraintWidth_percent=".20"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="517dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/JagminderAddress10"
+                android:layout_width="183dp"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+                android:text="@string/Address10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c2"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="199dp"
+                tools:layout_editor_absoluteY="323dp"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:text="@string/Visit1"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="419dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/sd3"
+                app:layout_constraintHeight_percent=".12"
+                app:layout_constraintWidth_percent=".20"
+                tools:layout_editor_absoluteX="246dp"
+                tools:layout_editor_absoluteY="565dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/JagminderAddress11"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address11"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c3"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="102dp"
+                tools:layout_editor_absoluteY="106dp"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="@string/Visit3"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="210dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/sd4"
+                app:layout_constraintHeight_percent=".12"
+                app:layout_constraintWidth_percent=".20"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="293dp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/JagminderAddress12"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address12"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c4"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="372dp"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="@string/Visit3"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="210dp"
+                android:layout_gravity="center"/>
+
+
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:src="@drawable/sub">
+
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

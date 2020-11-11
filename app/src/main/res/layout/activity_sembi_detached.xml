@@ -1,9 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Jagminder Sembi N01300801 section A -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SembiActivityDetached">
+    android:background="#D7BDE2"
+    tools:context="com.example.jagminder.sembi.N01300801.SembiActivityDetached">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-210dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/JagminderApt"
+                android:layout_width="220dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#E8ACAC"
+                android:text="@string/Det"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/detached1"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:cropToPadding="true" />
+
+
+            <TextView
+                android:id="@+id/JagminderAddress5"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price1"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="143dp"
+                android:layout_height="28dp"
+                android:checked="true"
+                android:text="@string/Visit2"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/detached2"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/JagminderAddress6"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address6"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="@string/Visit3"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price3"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/detached3"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/JagminderAddress7"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address7"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="140dp"
+                android:layout_height="27dp"
+                android:checked="true"
+                android:text="@string/Visit4"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price4"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="179dp"
+                android:background="@drawable/detached4"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/JagminderAddress8"
+                android:layout_width="183dp"
+                android:layout_height="54dp"
+                android:text="@string/Address8"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                >
+
+            </TextView>
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="140dp"
+                android:layout_height="27dp"
+                android:checked="true"
+                android:text="@string/Visit4"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Price2"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:src="@drawable/sub">
+
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
