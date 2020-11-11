@@ -34,3 +34,20 @@ public class JagminderActivity2 extends AppCompatActivity {
                 startActivity(intent);
                 Toast.makeText(this, "Apartment selected", Toast.LENGTH_SHORT).show();
                 return true;
+
+            case R.id.SembiDetached:
+                Intent intent1  = new Intent(JagminderActivity2.this,SembiActivityDetached.class);
+                startActivity(intent1);
+                Toast.makeText(this, "Detached selected", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.SembiSemiDetached:
+                Intent intent2  = new Intent(JagminderActivity2.this,SembiActivitySemiDetached.class);
+                startActivity(intent2);
+                Toast.makeText(this, "SemiDetached selected", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+
+
+        }
+    }
