@@ -1,3 +1,72 @@
 <resources>
-    <string name="app_name">JagminderSembiLab2</string>
+    <!-- Jagminder Sembi N01300801 section A -->
+    <string name="app_name">JagminderLab2</string>
+    <string name="Button">Enter</string>
+    <string name="Apartment">Apartment</string>
+    <string name="Detached">Detached</string>
+    <string name="SemiDetached">Semi-Detached</string>
+
+    <string name="Address">#2604 -8 EGLINTON AVE E Toronto, Ontario M4P0C1</string>
+    <string name="Address2">#412 -39 QUEENS QUAY E Toronto, Ontario M5E0A5</string>
+    <string name="Address3">#903 -100 LEEWARD GLENWAY GLWY Toronto, Ontario M3C2Z1</string>
+    <string name="Address4">#LPH05 -15 LEGION RD Toronto, Ontario M8V0A9</string>
+
+    <string name="Apt">Apartment</string>
+    <string name="Det">Detached</string>
+    <string name="Sem">SemiDetached</string>
+
+    <string name="Address5">#92 -30 DUNDALK DR Toronto, Ontario M1P4W1</string>
+    <string name="Address6">203 VEROBEACH BLVD Toronto, Ontario M9M1R4</string>
+    <string name="Address7">9 ROYCREST AVE Toronto, Ontario M2N1R1</string>
+    <string name="Address8">115 DALI CRES Toronto, Ontario M1B5Y3</string>
+
+    <string name="Address9">#TH5 -23 HOLLYWOOD AVE Toronto, Ontario M2N7L8</string>
+    <string name="Address10">#315 -1485 BIRCHMOUNT RD Toronto, Ontario M1P0C7</string>
+    <string name="Address11">28 COLGATE AVE Toronto, Ontario M4M1N4</string>
+    <string name="Address12">#906 -5 EVERSON DR Toronto, Ontario M2N7C3</string>
+
+    <string name="Price1">Price: $599,999</string>
+    <string name="Price2">Price: $728,000 </string>
+    <string name="Price3">Price: $1,299,000</string>
+    <string name="Price4">Price: $1,089,000</string>
+
+
+    <string name="c1">Price: $1,149,900</string>
+    <string name="c2">Price: $$599,900</string>
+    <string name="c3">Price: $1,099,000</string>
+    <string name="c4">Price: $539,000</string>
+
+    <string name="Rent">Rent: $1200-$2000</string>
+    <string name="Rent2">Rent: $1450-$1950</string>
+    <string name="Rent3">Rent: $1375-$2100</string>
+    <string name="Rent4">Rent: $1500-$2100</string>
+
+    <string name="cb1">Apt 1 selected</string>
+    <string name="cb2">Apt 2 selected</string>
+    <string name="cb3">Apt 3 selected</string>
+    <string name="cb4">Apt 4 selected</string>
+
+    <string name="cbD1">Detached 1 selected</string>
+    <string name="cbD2">Detached 2 selected</string>
+    <string name="cbD3">Detached 3 selected</string>
+    <string name="cbD">Detached 4 selected</string>
+
+    <string name="Visit1">schedule a visit</string>
+    <string name="Visit2">schedule a visit</string>
+    <string name="Visit3">schedule a visit</string>
+    <string name="Visit4">schedule a visit</string>
+
+    <string name="visa"></string>
+    <string name="MasterCard"></string>
+    <string name="Other"></string>
+    <string name="name_info"></string>
+    <string name="name_prompt"></string>
+    <string name="number_info"></string>
+    <string name="number_prompt"></string>
+    <string name="OK"></string>
+    <string name="pay_opt"></string>
+    <string name="payment_screen"></string>
+
+
+
 </resources>
